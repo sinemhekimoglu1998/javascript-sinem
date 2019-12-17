@@ -12,7 +12,7 @@
 function test() {
     return true;
 }
-
+.
 (function() {
     return true;
 })();

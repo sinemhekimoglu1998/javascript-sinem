@@ -9,10 +9,23 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-function test() {
-    return true;
+switch (case) {
+case "1":
+    // some code
+    break;
+case "two":
+    // some code
+    break;
+case "III":
+    if (!shouldProceed) {
+        return false;
+    }
+    // tasks to be done for case III
+    break;
+case "4":
+    // case 4 code
+    break;
+default:
+    // default tasks
+    break;
 }
-.
-(function() {
-    return true;
-})();

@@ -11,6 +11,7 @@
 
 (function() {
 
-    // your code here
+   let username = prompt("What is your name")
+    alert ("hello " + username + "!")
 
 })();

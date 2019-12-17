@@ -9,9 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
+(function (userinformation) () {
 
-    function getValue() {
-        var retVal = prompt("What is your age: ", "Age");
-        document.write (retVal);
-
-    }
+var userAge: prompt:
+})();

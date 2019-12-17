@@ -15,7 +15,7 @@
     var userGender = prompt("what is your gender?");
     var userTown = prompt("where you do live?");
 
-    if (confirm("Your age is " + userAge + ", your gender is" + ", your town is " + userTown + "?"))
+    if (confirm("Your age is " + userAge + ", your gender is" + ", your town is " + userTown + "?"));
     else {
             alert("Please enter information");
 

@@ -9,7 +9,14 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function (userinformation) () {
+(function ( UserInformation(){
 
-var userAge: prompt:
-})();
+    var Age: prompt: ("what is your age?");
+    var Gender: prompt: ("what is your gender?");
+    var Town: prompt: ("where you do live?");
+
+    if (confirm("Your name is " + userAge + ", your gender is" + ", your town is " + userTown + "?")) {
+        alert("Thank you, " + userAge + " year old " + userGender + " from " + userTown);
+
+
+})()

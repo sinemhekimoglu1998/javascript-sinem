@@ -15,18 +15,24 @@
     document.getElementById("addition").addEventListener("click", function() {
         let firstArgument = document.getElementById("op-one").value;
         let secondArgument = document.getElementById("op-two").value;
-        alert("")
+        alert( parseInt (firstArgument) + parseInt(secondArgument))
     });
 
     document.getElementById("substraction").addEventListener("click", function() {
-        alert("test")
+        let firstArgument = document.getElementById("op-one").value;
+        let secondArgument = document.getElementById("op-two").value;
+        alert( parseInt (firstArgument) + parseInt(secondArgument))
     });
 
     document.getElementById("multiplication").addEventListener("click", function() {
-     alert("test")
+        let firstArgument = document.getElementById("op-one").value;
+        let secondArgument = document.getElementById("op-two").value;
+        alert( parseInt (firstArgument) + parseInt(secondArgument))
     });
 
     document.getElementById("division").addEventListener("click", function() {
-       alert("test")
+        let firstArgument = document.getElementById("op-one").value;
+        let secondArgument = document.getElementById("op-two").value;
+        alert( parseInt (firstArgument) + parseInt(secondArgument))
     });
 })();

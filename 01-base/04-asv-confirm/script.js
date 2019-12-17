@@ -17,7 +17,7 @@
 
     if (confirm("Your age is " + userAge + ", your gender is" + ", your town is " + userTown + "?"));
     else {
-            alert("Please enter information");
+            alert("Please enter information.");
 
         }
 })();
